@@ -7,21 +7,12 @@
 using namespace std;
 
 
-
-
-
-
 /////// start 
 
 
 
 
-
-
-
 bool i1=true,i2=true,i3=true,i4=true;
-
-
 
 
 
@@ -69,9 +60,6 @@ void chkdsk() {
  
  
  
- 
- 
- 
  void temp() {
 	
 	
@@ -82,11 +70,6 @@ void chkdsk() {
 	i4=false;
     
 }
- 
- 
- 
- 
- 
  
  
  
@@ -119,9 +102,7 @@ main()
     
     
     system("color A0");
-    
-    
-    
+
     
     
     
@@ -142,7 +123,6 @@ main()
     
     
     
-    
     if(e=='s' || e=='S' )
     
     {
@@ -150,37 +130,24 @@ main()
     	
     	
     	
-    	
-    	
 		////////////////////////// clear
-		
 		
 		
 		system("cls");
 		
 		
 		
-		
-		
-		
-		
 		//////////////////////////////////////////////// setup 1
-		
 		
 		
 		thread t1(sfc);
        
-       
-		
 		
 		cout <<"\n\t 1/4 Repair System Files ";
 		
 		
 		
-		
-		
 			while(i1)
-		
 		
 				{
 					
@@ -201,14 +168,6 @@ main()
 
 
        
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
@@ -245,8 +204,6 @@ main()
 
 
 
-		
-		
 		
 		
 		
@@ -287,17 +244,12 @@ main()
 
              
 		
-		
-		
-		
 		//////////////////////////////////////////////// setup 4
 		
 		
 		
 		thread t4(temp);
 
-     	
-     	
 		
 		cout<<"\n\n\t 4/4 Delete temporary files ";
 		
@@ -328,11 +280,6 @@ main()
 
 
 
-		
-		
-
-
-
 
          cout<<"\n\n\n\t\a Completed. :)";
 	
@@ -343,8 +290,6 @@ main()
 	
   
   
-	
-	
 	
 	
 	///////////////// exit
